@@ -1,0 +1,30 @@
+# Optional: runs the seminar scraper every Monday on GitHub and saves the result.
+# Put this project in a GitHub repository to use it. You can also start it by hand
+# from the repository's "Actions" tab ("Run workflow").
+name: Scrape seminars
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # every Monday, 03:00 UTC (09:00 in Dhaka)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scraper/requirements.txt
+      - run: python scraper/seminar_scraper.py --sources scraper/scraper_sources.json --out data/seminars_scraped.json --verbose
+      - name: Save the result
+        run: |
+          git config user.name "seminar-scraper"
+          git config user.email "seminar-scraper@users.noreply.github.com"
+          git add data/seminars_scraped.json
+          git diff --cached --quiet || git commit -m "Update scraped seminars"
+          git push

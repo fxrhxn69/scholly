@@ -1,0 +1,86 @@
+{
+  "sources": [
+    {
+      "url": "https://www.uu.se/en/study/masters-studies/meet-us/events",
+      "organizer": "Uppsala University",
+      "related_entry_ids": [
+        "SCH-2026-SE01",
+        "SCH-2026-SE02"
+      ]
+    },
+    {
+      "url": "https://www.lunduniversity.lu.se/study/connect-us-about-studies/online/upcoming-virtual-events",
+      "organizer": "Lund University",
+      "related_entry_ids": [
+        "SCH-2026-SE01",
+        "SCH-2026-SE02"
+      ]
+    },
+    {
+      "url": "https://www.su.se/english/education/meet-us/meet-us-online-and-around-the-world",
+      "organizer": "Stockholm University",
+      "related_entry_ids": [
+        "SCH-2026-SE01",
+        "SCH-2026-SE02"
+      ]
+    },
+    {
+      "url": "https://www.his.se/en/education/admission/bachelor-master-programme-students/webinar/",
+      "organizer": "University of Skövde",
+      "related_entry_ids": [
+        "SCH-2026-SE01",
+        "SCH-2026-SE02"
+      ]
+    },
+    {
+      "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
+      "organizer": "Swedish Institute",
+      "related_entry_ids": [
+        "SCH-2026-SE01"
+      ]
+    },
+    {
+      "url": "https://www.emhrpp.com/",
+      "organizer": "EMHRPP consortium",
+      "related_entry_ids": [
+        "SCH-2026-EM01"
+      ]
+    },
+    {
+      "url": "https://www.bi.no/en/programmes-and-individual-courses/master-programmes/biluiss-masters-in-marketing/",
+      "organizer": "BI Norwegian Business School",
+      "related_entry_ids": [
+        "SCH-2026-BIL01"
+      ]
+    },
+    {
+      "url": "https://www.bi.no/en/programmes-and-individual-courses/scholarships/bi-luiss-joint-masters-in-marketing-scholarship/",
+      "organizer": "BI Norwegian Business School (joint with Luiss University, Rome)",
+      "related_entry_ids": [
+        "SCH-2026-BIL01"
+      ]
+    },
+    {
+      "url": "https://www.bi.no/en/",
+      "organizer": "BI Norwegian Business School (joint with Luiss University, Rome)",
+      "related_entry_ids": [
+        "SCH-2026-BIL01"
+      ]
+    },
+    {
+      "url": "https://si.se/en/",
+      "organizer": "Swedish Institute (any SI-eligible programme at a Swedish university)",
+      "related_entry_ids": [
+        "SCH-2026-SE01",
+        "SCH-2026-SE02"
+      ]
+    },
+    {
+      "url": "https://si.se/en/apply/scholarships/pioneeringwomeninstem/embed",
+      "organizer": "Swedish Institute (designated STEM programmes at Swedish universities)",
+      "related_entry_ids": [
+        "SCH-2026-SE02"
+      ]
+    }
+  ]
+}
